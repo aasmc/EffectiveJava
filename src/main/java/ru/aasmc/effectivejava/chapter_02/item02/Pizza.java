@@ -12,7 +12,7 @@ public abstract class Pizza {
     /**
      * Generic type with a recursive type parameter. This along with the
      * abstract self() method allows method chaining to work properly in subclasses
-     * without the need for casts.
+     * without the need for casts. This is called: "Simulated Self-Type" idiom.
      */
     abstract static class Builder<T extends Builder<T>> {
         EnumSet<Topping> toppings = EnumSet.noneOf(Topping.class);
@@ -25,6 +25,7 @@ public abstract class Pizza {
         abstract Pizza build();
 
         // Subclasses must override this method to return "this"
+        // covariant return typing.
         protected abstract T self();
     }
 
