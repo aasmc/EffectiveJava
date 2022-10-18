@@ -1,4 +1,4 @@
-package ru.aasmc.effectivejava.chapter_03.item_14;
+package ru.aasmc.effectivejava.chapter_03.item_13;
 
 public class HashTable implements Cloneable {
 
