@@ -1,0 +1,2 @@
+# Favor generic types
+
