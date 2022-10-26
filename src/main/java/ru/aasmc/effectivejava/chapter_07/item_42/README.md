@@ -1,0 +1,1 @@
+# Prefer lambdas to anonymous classes
