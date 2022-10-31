@@ -1,0 +1,3 @@
+# Prefer interfaces to reflection
+
+You can obtain many of the benefits of reflection while incurring few of its costs by using it only in a very limited form. For many programs that must use a class that is unavailable at compile time, there exists at compile time an appropriate interface or superclass by which to refer to the class. If this is the case, you can create instances reflectively and access them normally via their interface or superclass. 
