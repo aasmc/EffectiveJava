@@ -1,4 +1,4 @@
-package ru.aasmc.effectivejava.chapter_09.unit_59;
+package ru.aasmc.effectivejava.chapter_09.item_59;
 
 import java.io.IOException;
 import java.io.InputStream;
