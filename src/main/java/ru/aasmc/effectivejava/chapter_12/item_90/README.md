@@ -1,0 +1,3 @@
+# Consider serialization proxies instead of serialized instances
+
+First design a private static nested class that concisely represents the logical state of an instance of an enclosing class. it is known as the *serialization proxy* of the enclosing class. It should have a single constructor, whose parameter type is the enclosing class. This constructor merely copies the data from its argument without any consistency checking of defensive copying.
